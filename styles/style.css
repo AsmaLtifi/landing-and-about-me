@@ -129,17 +129,19 @@ h2.reference-my-name{
 }
 
 #about-me-link{
+    text-decoration: none;
     color: whitesmoke;
 }
 
 #about-me-link:hover{
+    text-decoration: none;
     color: #9ecc49c5;
 }
 
 .scroll-container{
-    position: absolute;
+    position: relative;
     display: block;
-    bottom: 5%;
+    bottom: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
