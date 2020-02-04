@@ -1,17 +1,16 @@
 body{
     margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 0;
-    /*border: 1px solid #c8ee83;
-     #d274a6 */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
 }
 
-div.menue{
+#menue{
     position: fixed;
-    margin-left: 4.6%;
+    margin-left: 2%;
     top: 0px;
-    left: -2.5%;
 }
 
 #menue-item-list{
@@ -57,7 +56,7 @@ li.menue-item a:hover, li.first-menue-item a:hover{
     margin-top: 3%;
     margin-left: 2.1%;
     margin-right: 2.1%;
-    margin-bottom: 5.1%;
+    margin-bottom: 9.8%;
     padding-bottom: 4.2%;
     background: linear-gradient(to top right,#cc2f83ce 0%,#d274a6ce 100%);
     background-size: cover;
@@ -95,6 +94,7 @@ h1.header, td.header{
 }
 
 #content-cell{
+    padding-left:8%;
     width: 50%;
 }
 
@@ -141,9 +141,9 @@ h2.reference-my-name{
 .scroll-container{
     position: relative;
     display: block;
-    bottom: 100px;
+    top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -620%);
 }
 
 .other-scroll-container{
@@ -192,13 +192,6 @@ a.scroll-link:hover{
 }
 
 #about-me-container, #my-journey-container, #my-skills-container, #contact-me-container{
-    /*
-    margin-top: 3%;
-    margin-left: 2.1%;
-    margin-right: 2.1%;
-    margin-bottom: 5.1%;
-    padding-bottom: 4.2%;
-    */
     box-sizing: border-box;
     margin-top: 3%;
     margin-left: 2.1%;
@@ -213,6 +206,9 @@ a.scroll-link:hover{
     border-radius: 10px;
 }
 
+.section-content-table{
+    margin-top:3%;
+}
 .section-title-cell{
     box-sizing: border-box; 
     width:35%;
